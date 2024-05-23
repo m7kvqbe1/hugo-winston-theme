@@ -36,5 +36,9 @@
   .author-title {
     display: inline-block;
     vertical-align: middle;
+
+    @media (max-width: 638px) {
+      margin-top: 1rem;
+    }
   }
 }
