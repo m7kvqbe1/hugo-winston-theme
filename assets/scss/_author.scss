@@ -37,8 +37,10 @@
     display: inline-block;
     vertical-align: middle;
 
-    @media (max-width: 638px) {
+    @media (max-width: 637px) {
+      display: block;
       margin-top: 1rem;
+      font-size: 16px;
     }
   }
 }
